@@ -67,7 +67,7 @@
                 </executions>
                 <configuration>
                     <repositoryId>nexus-releases</repositoryId>
-                    <url>http://13.127.197.254:8081/repository/my-maven-releases/</url>
+                    <url>http://3.15.2.197:8081/repository/my-maven-releases/</url>
                     <file>${project.build.directory}/${project.build.finalName}.jar</file>
                     <groupId>com.aitechie</groupId>
                     <artifactId>backend</artifactId>
