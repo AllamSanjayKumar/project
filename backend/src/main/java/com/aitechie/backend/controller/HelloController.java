@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 public class HelloController {
 
     // Apply CORS to a specific method
-    @CrossOrigin(origins = "http://127.0.0.1:3333")  // Allow frontend at this origin
+    @CrossOrigin(origins = "http://localhost:51600/")  // Allow frontend at this origin
     @GetMapping("/api/hello")
     public String hello() {
         return "This is the reply from SANJAY's backend app";
